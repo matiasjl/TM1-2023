@@ -20,6 +20,9 @@ void setup() { //CUANDO: una sola vez cuando se ejecuta el programa
 void draw() {  //CUANDO: 60 veces por segundo (promedio variable) despues del setup
   background( bg );
   text( key, 50, 50 );
+  if( keyPressed ){
+    //some code here
+  }
 }
 
 void keyPressed() {  //CUANDO: se presiona cualquier tecla del teclado

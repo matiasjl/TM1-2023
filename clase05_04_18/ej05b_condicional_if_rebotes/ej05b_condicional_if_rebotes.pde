@@ -35,11 +35,15 @@ void draw() {  //CUANDO: 60 veces por segundo (promedio variable) despues del se
   //update2: rebotes  (calculos + movimient)
   if( x >= 700 ){  //borde derecha
     izquierda = true;
-    vel++;  //cada rebota suma un punto de velocidad
+    if( vel < 10 ){
+      vel++;  //cada rebota suma un punto de velocidad
+    }
   }
   if( x <= 100 ){  //borde izquierda
     izquierda = false;
-    vel++;  //cada rebota suma un punto de velocidad
+    if( vel < 10 ){
+      vel++;  //cada rebota suma un punto de velocidad
+    }
   }
   //
   if( izquierda ){
