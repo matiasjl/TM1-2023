@@ -24,7 +24,7 @@ void setup() {
 
   for ( int i = 0; i < 100; i++ ) {
     numerosRandom[i] = int( random(30, 90) );
-    println( numerosRandom[i] );
+    println( i + ": " + numerosRandom[i] );
   }
 }
 
