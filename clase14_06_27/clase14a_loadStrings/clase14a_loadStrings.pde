@@ -6,7 +6,13 @@ int c = 6;
 String[] partes = new String[c];
 String[] textos = new String[c];
 
+//update: unificar en un solo arreglo de 2 dimensiones
+//String[][] textos = new String[2][6];
+//ej16b_array_bidimensional_string 
+
 void setup() {
+  
+  size( 200, 200 );
 
   //metodo 1: asignar manualmente los textos en cada indice
   partes[0] = "Parte 1: Nacimiento desafortunado";
@@ -26,6 +32,8 @@ void setup() {
 }
 
 void draw(){
-
+  background( 0 );
+  //TIP: param 4 y 5 son ancho y alto de caja de texto
+  text( textos[0], 0, 0, 200, 200 );
 
 }
