@@ -15,6 +15,7 @@
  
 void setup(){
   println( condicionT1( 'A', 'A' ) );
+  background( 200, 0, 0 );
 }
 
 String condicionT1 ( char tp2, char tp3 ) {
