@@ -5,4 +5,5 @@ function preload(){
   for( let i = 0 ; i < c ; i++ ){
     mb[i] = loadImage("assets/mb0"+i+".png");  //.png acepta canal alpha(transparencia) y .jpg NO ACEPTA
   }
+  //mb[0] = loadImage("assets/mb00.png"); 
 }
