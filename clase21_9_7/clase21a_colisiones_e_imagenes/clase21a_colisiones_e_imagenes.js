@@ -67,8 +67,8 @@ function draw() {
 }
 
 function preload(){
-  p1 = loadImage("assets/estrella.png");
-  p2 = loadImage("assets/estrella.png");
+  p1 = loadImage("estrella.png");
+  p2 = loadImage("assets/estrella2.png");
 }
 
 function keyPressed(){
