@@ -25,9 +25,17 @@ class Auto {
     push();  //buena practica cuando trabajamos con clases/objetos
     fill( 200, 0, 0 );
     rect( this.x, this.y + 5, this.t*2, this.t );
+    //debug velocidad
     //fill( 255 );
     //text( this.v, this.x, this.y+this.t/2 );
     pop();
+  }
+  
+  getX(){
+    return this.x;
+  }
+  getY(){
+    return this.y;
   }
 
 }
